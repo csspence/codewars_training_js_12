@@ -10,7 +10,6 @@ You should use for..in in your code, otherwise, your solution may not pass this 
 */
 
 const giveMeFive = (obj) => {
-  console.log(obj);
   let arr = [];
   for (let key in obj) {
     if(key.length === 5) {
